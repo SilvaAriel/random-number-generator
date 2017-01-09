@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Number Generator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div>
+<h1>Random Number Generator</h1>
+  <br>
+<form>
+  <label>Quantity</label><br><input id="input_quantity" class="input_range" type="text" name="quantity"><br>
+<label>Range</label><br>
+<input id="input_rangeA" class="input_range" type="text" name="rangeA">
+ <label>to</label>
+ <input id="input_rangeB" class="input_range" type="text" name="range"><br><br>
+<input onclick ="randomNumber()" type="button" value="Generate"> <input onclick ="erase()" type="button" value="Erase">
+</form>
+<br>
+<label id="numbersResult">Results </label><br>
+ <label id="result"></label>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

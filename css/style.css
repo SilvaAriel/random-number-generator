@@ -1,0 +1,5 @@
+div {text-align: center; width: 60%; margin: auto; padding: 15px; word-wrap: break-word;}
+h1 {color: #000000; margin-top: 0px;}
+.input_range {width: 50px; padding: 2px; border-radius: 5px; text-align: center;}
+label {color: #000000;}
+#numbersResult {font-size: 20px; font-weight: bold;}
