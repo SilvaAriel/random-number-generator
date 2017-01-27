@@ -1,3 +1,3 @@
 # random-number-generator
-My first project using Javascript.
-This is my first time using Github so I'm learning what branches are and what they are for.
+My first project using Javascript and one of my first programming projects.
+And also this is my first time using Github so I'm still familiarizing myself with the environment.
